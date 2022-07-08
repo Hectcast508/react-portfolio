@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./Nav";
 
 
 export default function Header(props) {
@@ -7,6 +8,7 @@ export default function Header(props) {
       <h1>
         Hector Castaneda
       </h1>
+      <Nav/>
     </header>
   )
 }
