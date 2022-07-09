@@ -1,9 +1,8 @@
 import React from 'react';
-import '../App.css';
 
 export default function Nav(props){
     return (
-        <nav>
+        <nav className='nav-section'>
             <ul className='nav-items'>
                 <li>About Me</li>
                 <li>Portfolio</li>
