@@ -52,7 +52,7 @@ export default function Project() {
     <div>
       {projects.map((project, i) => (
         <a key={project.title} href={project.github}>
-          <img src={require(`../assets/${project.fileName}`)} alt={project.title}/>
+          <img className="project-img" src={require(`../assets/${project.fileName}`)} alt={project.title}/>
           <h2>{project.title}</h2>
           <p>{project.descript}</p>
         </a>
