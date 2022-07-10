@@ -2,13 +2,16 @@ import React from "react";
 import Nav from "./Nav";
 
 
-export default function Header(props) {
+
+export default function Header({ currentPage, handlePageChange }) {
+
   return (
     <header>
       <h1>
         Hector Castaneda
       </h1>
-      <Nav/>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
+    
   )
 }
