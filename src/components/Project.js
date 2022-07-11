@@ -6,28 +6,28 @@ export default function Project() {
   const [projects] = useState([
     {
       title: 'GamePlatforms',
-      descript: 'Description',
+      descript: 'HTML/CSS/JS/JQuery/API',
       github: 'https://github.com/uhMammoth/GamePlatforms',
       deploy: 'https://uhmammoth.github.io/GamePlatforms/',
       fileName: 'GamePlatformProject.png'
     },
     {
       title: 'Park Place',
-      descript: 'Description',
+      descript: 'Handlebars/CSS/node/SQL/Express',
       github: 'https://github.com/uhMammoth/GamePlatforms',
       deploy: 'https://park-place-association.herokuapp.com/',
       fileName: 'park-place.png'
     },
     {
       title: 'Run Buddy',
-      descript: 'Description',
+      descript: 'HTML/CSS',
       github: 'https://github.com/uhMammoth/GamePlatforms',
       deploy: 'https://hectcast508.github.io/run-buddy/',
       fileName: 'run-buddy.png'
     },
     {
       title: 'Refactored Coded',
-      descript: 'Description',
+      descript: 'HTML/CSS',
       github: 'https://github.com/uhMammoth/GamePlatforms',
       deploy: 'https://hectcast508.github.io/horiseon-refactored-code/',
       fileName: 'heriseon.png'

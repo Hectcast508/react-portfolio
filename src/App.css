@@ -5,8 +5,10 @@
 }
 
 :root {
-  --text-color: #000000;
-  --background-color: #a9a9a9;
+  --color1: #000000;
+  --color2: #a9a9a9;
+  --color3: #4682b4;
+  
 }
 
 body {
@@ -18,15 +20,17 @@ body {
 }
 
 header {
-  background-color: var(--background-color);
+  background-color: var(--color2);
   box-shadow: 0 1px 10px black;
   padding: 5px;
-  
+  border: 2px solid var(--color1);
 }
 
 header h1 {
   margin: 5px 10px;
   text-align: center;
+  font-size: 4em;
+
 }
 
 .nav-items {
@@ -34,32 +38,40 @@ header h1 {
   text-align: center;
 }
 
+.nav-items li:hover, .nav-items li a:hover {
+  background: var(--color3);
+  color: var(--color2);
+}
+
 .nav-items li {
   list-style: none;
   padding: 5px;
-  max-width: 25%;
+  max-width: 35%;
   margin-inline: auto;
   background-color: silver;
-  border: 2px solid var(--text-color);
+  border: 2px solid var(--color1);
   border-radius: 5px;
   margin-top: 3px;
+  font-size: 1em;
 }
 
 .nav-items li a {
   text-decoration: none;
-  color: var(--text-color);
-  
+  color: var(--color1);
 }
 
 main {
   padding-bottom: 80px;
+  background-color:var(--color3);
 }
 
 .about-sec {
-  background-color: var(--background-color);
-  max-width: 70%;
+  background-color: var(--color2);
+  max-width: 50%;
   margin-inline: auto;
   padding: 10px;
+  border: 2px solid var(--color1);
+  border-radius: 10px;
 }
 
 .about-sec p {
@@ -71,7 +83,8 @@ main {
 .aboutImage {
   flex-wrap: wrap;
   display: flex;
-  max-height: 50vh;
+  width: 20vw;
+  height: 100%;
   justify-content: space-between;
   border-radius: 50%;
   margin-inline: auto;
@@ -79,33 +92,45 @@ main {
 
 .sec-title {
   text-align: left;
-  padding: 10px 15px;
+  padding: 70px 0px 20px 100px;
 }
 
 .projects {
-  width: 90vw;
+  width: 70vw;
   margin-top: 1vh;
   margin-inline: auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-auto-rows: minmax(100px, auto);
   gap: 10px;
+  justify-content: center;
+}
+
+.project:hover {
+  opacity: 1;
 }
 
 .project {
   position: relative;
   box-shadow: 0 1px 10px black;
-  border: 3px solid var(--background-color);
-  border-radius: 10%;
+  border: 3px solid var(--color2);
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 0.7;
 }
 
 .project div {
   position: absolute;
   bottom: 0;
-  background-color: var(--background-color);
+  background-color: var(--color2);
   display: flex;
   justify-content: space-between;
   width: 100%;
+  color: var(--color1);
+  align-items: center;
+}
+
+.project div p {
+  font-weight: bold;
 }
 
 .project-img {
@@ -118,7 +143,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: var(--background-color);
+  background-color: var(--color2);
   max-width: 50%;
   margin-inline: auto;
   padding: 10px;
@@ -147,14 +172,73 @@ main {
   border-radius: 10px
 }
 
+.resume-list {
+  margin: 30px 0px 50px 180px;
+  padding: 10px;
+  border: 2px solid var(--color1);
+  background-color: var(--color2);
+  max-width: 25%;
+  border-radius: 10px;
+}
+
+.down-res a{
+  text-decoration: none;
+  color: var(--color1);
+}
+
+.resume-list div h2 {
+  padding-bottom: 20px;
+}
+
+.resume-list div ul {
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.resume-list div ul li {
+  padding-bottom: 5px;
+}
+
 footer {
-  background-color: var(--background-color);
+  background-color: var(--color2);
   display: flex;
   bottom: 0;
   width: 100%;
   justify-content: center;
   position: fixed;
+  border: 2px solid var(--color1);
 }
 
+footer img {
+  width: 100%;
+  height: 7vh;
+}
+
+@media only screen and (min-width: 850px) {
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-items li {
+    margin-right: 5px;
+    font-size: 2em;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);    
+    width: 50vw;
+    gap: 20px;
+  }
+
+
+
+}
 
 
