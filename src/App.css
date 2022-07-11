@@ -67,7 +67,7 @@ main {
 
 .about-sec {
   background-color: var(--color2);
-  max-width: 50%;
+  max-width: 80%;
   margin-inline: auto;
   padding: 10px;
   border: 2px solid var(--color1);
@@ -75,9 +75,10 @@ main {
 }
 
 .about-sec p {
-  max-width: 50%;
+  max-width: 80%;
   margin-inline: auto;
   text-align: center;
+  padding: 10px 0px 10px 0px;
 }
 
 .aboutImage {
@@ -229,6 +230,10 @@ footer img {
   .nav-items li {
     margin-right: 5px;
     font-size: 2em;
+  }
+
+  .about-sec {
+    max-width: 50%;
   }
 
   .projects {
