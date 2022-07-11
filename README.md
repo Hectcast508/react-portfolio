@@ -16,6 +16,8 @@ npm start
 
 ## Screenshot
 
+![Screenshot](./src/assets/react-portfolio.png)
+
 ## Link
 
 https://hectcast508.github.io/react-portfolio/
