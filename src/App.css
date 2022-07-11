@@ -174,11 +174,12 @@ main {
 }
 
 .resume-list {
-  margin: 30px 0px 50px 180px;
+  
   padding: 10px;
   border: 2px solid var(--color1);
   background-color: var(--color2);
-  max-width: 25%;
+  margin-inline: auto;
+  max-width: 400px;
   border-radius: 10px;
 }
 
@@ -242,7 +243,11 @@ footer img {
     gap: 20px;
   }
 
-
+  .resume-list {
+    max-width: 25%;
+    margin-inline: unset;
+    margin: 30px 0px 50px 180px;
+  }
 
 }
 
