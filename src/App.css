@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: #000000;
+  --background-color: #a9a9a9;
+}
+
 body {
+  position: relative;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',    sans-serif;  
   -webkit-font-smoothing: antialiased;  
@@ -12,58 +18,143 @@ body {
 }
 
 header {
-  background-color: darkgray;
-  display: flex;
-  justify-content: space-between;
+  background-color: var(--background-color);
   box-shadow: 0 1px 10px black;
-  padding: 20px;
+  padding: 5px;
   
 }
 
 header h1 {
   margin: 5px 10px;
-  font-size: 3vw;
-}
-
-.nav-section {
-  padding-top: 10px;
-  padding-right: 20px;
+  text-align: center;
 }
 
 .nav-items {
-  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .nav-items li {
   list-style: none;
-  padding: 10px;
-  font-size: 1.5vw;
+  padding: 5px;
+  max-width: 25%;
+  margin-inline: auto;
+  background-color: silver;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  margin-top: 3px;
 }
 
 .nav-items li a {
   text-decoration: none;
+  color: var(--text-color);
+  
 }
 
 main {
+  padding-bottom: 80px;
+}
+
+.about-sec {
+  background-color: var(--background-color);
+  max-width: 70%;
+  margin-inline: auto;
+  padding: 10px;
+}
+
+.about-sec p {
+  max-width: 50%;
+  margin-inline: auto;
   text-align: center;
 }
 
 .aboutImage {
+  flex-wrap: wrap;
   display: flex;
-  width: 280px;
-  height: auto;
-  margin-left: 200px;
+  max-height: 50vh;
+  justify-content: space-between;
   border-radius: 50%;
+  margin-inline: auto;
+}
+
+.sec-title {
+  text-align: left;
+  padding: 10px 15px;
+}
+
+.projects {
+  width: 90vw;
+  margin-top: 1vh;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
+}
+
+.project {
+  position: relative;
+  box-shadow: 0 1px 10px black;
+  border: 3px solid var(--background-color);
+  border-radius: 10%;
+}
+
+.project div {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .project-img {
-  width: 300px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: var(--background-color);
+  max-width: 50%;
+  margin-inline: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid var(--secondary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px
 }
 
 footer {
-  background-color: darkcyan;
+  background-color: var(--background-color);
+  display: flex;
   bottom: 0;
   width: 100%;
+  justify-content: center;
+  position: fixed;
 }
+
+
 

@@ -1,17 +1,20 @@
 import React from "react";
+import github from "../assets/githubicon.svg"
+import linkedin from "../assets/linkedinicon.svg"
+import twitter from "../assets/twittericon.svg"
 
 
 export default function Footer(props) {
   return (
     <footer>
       <a href="https://github.com/Hectcast508">
-        <img src={require("../assets/githubicon.png")} alt="githun-icon"/>
+        <img src={github} alt="github-icon"/>
       </a>
       <a href="/">
-        <img src={require("../assets/linkedinicon.png")} alt="githun-icon"/>
+        <img src={linkedin} alt="linkedin-icon"/>
       </a>
       <a href="https://twitter.com/CapWonderBread">
-        <img src={require("../assets/twittericon.png")} alt="githun-icon"/>
+        <img src={twitter} alt="twitter-icon"/>
       </a>
     </footer>
   )

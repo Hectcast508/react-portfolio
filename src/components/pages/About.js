@@ -3,17 +3,14 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
-      <img className='aboutImage' src={require('../../assets/about-photo.png')} alt='about-img'/>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className='about-title'>
+      <h1 className='sec-title'>About</h1>
+      <div className='about-sec'>
+        <img className='aboutImage' src={require('../../assets/about-photo.png')} alt='about-img'/>
+        <p>
+        I am currently working in for a warehouse as a Equipment Operator. I've always been hard working and never let time go to waste, seeking better opportunities that come. Eager to learn more, getting close to perfection as a goal, really good team player and always on time. I am look to further my knowledge about coding, I have become very interested and would love to better myself in this work field. Willing to accept any offers that will help me reach my goals and teach me more ways to succeed in this career.
+        </p>
+      </div>
     </div>
   );
 }
