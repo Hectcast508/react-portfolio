@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.19078d3e.css",
-    "main.js": "/react-portfolio/static/js/main.5d0a5389.js",
+    "main.css": "/react-portfolio/static/css/main.1cc7ca68.css",
+    "main.js": "/react-portfolio/static/js/main.9bdbb11d.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/heriseon.png": "/react-portfolio/static/media/heriseon.323c79aa838e21ba6a7b.png",
     "static/media/park-place.png": "/react-portfolio/static/media/park-place.b30a2b1ded53422372d8.png",
@@ -12,12 +12,12 @@
     "static/media/twittericon.svg": "/react-portfolio/static/media/twittericon.68b62d16a9639df43a732b371ef90a2a.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/linkedinicon.svg": "/react-portfolio/static/media/linkedinicon.beca437ff906ecdaf04245d3f950c09c.svg",
-    "main.19078d3e.css.map": "/react-portfolio/static/css/main.19078d3e.css.map",
-    "main.5d0a5389.js.map": "/react-portfolio/static/js/main.5d0a5389.js.map",
+    "main.1cc7ca68.css.map": "/react-portfolio/static/css/main.1cc7ca68.css.map",
+    "main.9bdbb11d.js.map": "/react-portfolio/static/js/main.9bdbb11d.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19078d3e.css",
-    "static/js/main.5d0a5389.js"
+    "static/css/main.1cc7ca68.css",
+    "static/js/main.9bdbb11d.js"
   ]
 }
