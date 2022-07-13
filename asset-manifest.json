@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f25e8ab9.css",
-    "main.js": "/react-portfolio/static/js/main.9bdbb11d.js",
+    "main.css": "/react-portfolio/static/css/main.e2fccaad.css",
+    "main.js": "/react-portfolio/static/js/main.12d6280f.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/heriseon.png": "/react-portfolio/static/media/heriseon.323c79aa838e21ba6a7b.png",
     "static/media/park-place.png": "/react-portfolio/static/media/park-place.b30a2b1ded53422372d8.png",
     "static/media/run-buddy.png": "/react-portfolio/static/media/run-buddy.9e7891bfd940da0a8a53.png",
     "static/media/GamePlatformProject.png": "/react-portfolio/static/media/GamePlatformProject.681b0f423e8c8c8aec24.png",
     "static/media/about-photo.png": "/react-portfolio/static/media/about-photo.f4c09a56d34131c61a0d.png",
+    "static/media/react-portfolio.png": "/react-portfolio/static/media/react-portfolio.93d419fd917c9bf02a4d.png",
     "static/media/githubicon.svg": "/react-portfolio/static/media/githubicon.eb02fcfb2dd15ea9a88ef75bbbadbbeb.svg",
     "static/media/twittericon.svg": "/react-portfolio/static/media/twittericon.68b62d16a9639df43a732b371ef90a2a.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/linkedinicon.svg": "/react-portfolio/static/media/linkedinicon.beca437ff906ecdaf04245d3f950c09c.svg",
-    "main.f25e8ab9.css.map": "/react-portfolio/static/css/main.f25e8ab9.css.map",
-    "main.9bdbb11d.js.map": "/react-portfolio/static/js/main.9bdbb11d.js.map",
+    "main.e2fccaad.css.map": "/react-portfolio/static/css/main.e2fccaad.css.map",
+    "main.12d6280f.js.map": "/react-portfolio/static/js/main.12d6280f.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f25e8ab9.css",
-    "static/js/main.9bdbb11d.js"
+    "static/css/main.e2fccaad.css",
+    "static/js/main.12d6280f.js"
   ]
 }
