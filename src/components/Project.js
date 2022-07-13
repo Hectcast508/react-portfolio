@@ -14,21 +14,21 @@ export default function Project() {
     {
       title: 'Park Place',
       descript: 'Handlebars/CSS/node/SQL/Express',
-      github: 'https://github.com/uhMammoth/GamePlatforms',
+      github: 'https://github.com/SalvadorBanuelos424/Park-Place-master-planned-community.git',
       deploy: 'https://park-place-association.herokuapp.com/',
       fileName: 'park-place.png'
     },
     {
       title: 'Run Buddy',
       descript: 'HTML/CSS',
-      github: 'https://github.com/uhMammoth/GamePlatforms',
+      github: 'https://github.com/Hectcast508/run-buddy.git',
       deploy: 'https://hectcast508.github.io/run-buddy/',
       fileName: 'run-buddy.png'
     },
     {
       title: 'Refactored Coded',
       descript: 'HTML/CSS',
-      github: 'https://github.com/uhMammoth/GamePlatforms',
+      github: 'https://github.com/Hectcast508/horiseon-refactored-code.git',
       deploy: 'https://hectcast508.github.io/horiseon-refactored-code/',
       fileName: 'heriseon.png'
     },
@@ -53,12 +53,14 @@ export default function Project() {
     <div className="projects">
       {projects.map(project => (
         <a className="project" key={project.title} href={project.deploy}>
-          <div>
-          <h2>{project.title}</h2>
-          <p>{project.descript}</p>
-          <a href={project.github}>
-            <img src={github} alt="githubicon"/>
-          </a>
+          <div className="card-info">
+            <div className="pro-text">
+              <h2>{project.title}</h2>
+              <p>{project.descript}</p>
+            </div>
+            <a href={project.github}>
+              <img className="github-icon" src={github} alt="githubicon"/>
+            </a>
           </div>
           <img className="project-img" src={require(`../assets/${project.fileName}`)} alt={project.title}/>
         </a>
