@@ -5,11 +5,11 @@ export default function Project() {
 
   const [projects] = useState([
     {
-      title: 'GamePlatforms',
-      descript: 'HTML/CSS/JS/JQuery/API',
-      github: 'https://github.com/uhMammoth/GamePlatforms',
-      deploy: 'https://uhmammoth.github.io/GamePlatforms/',
-      fileName: 'GamePlatformProject.png'
+      title: 'Mern School Website',
+      descript: 'Description',
+      github: 'https://github.com/uhMammoth/school-website.git',
+      deploy: 'https://mern-school-website.herokuapp.com/',
+      fileName: 'mern-school-website.png'
     },
     {
       title: 'Park Place',
@@ -19,26 +19,26 @@ export default function Project() {
       fileName: 'park-place.png'
     },
     {
+      title: 'GamePlatforms',
+      descript: 'HTML/CSS/JS/JQuery/API',
+      github: 'https://github.com/uhMammoth/GamePlatforms',
+      deploy: 'https://uhmammoth.github.io/GamePlatforms/',
+      fileName: 'GamePlatformProject.png'
+    },
+    {
       title: 'Run Buddy',
       descript: 'HTML/CSS',
       github: 'https://github.com/Hectcast508/run-buddy.git',
       deploy: 'https://hectcast508.github.io/run-buddy/',
       fileName: 'run-buddy.png'
-    },
+    },    
     {
       title: 'Refactored Coded',
       descript: 'HTML/CSS',
       github: 'https://github.com/Hectcast508/horiseon-refactored-code.git',
       deploy: 'https://hectcast508.github.io/horiseon-refactored-code/',
       fileName: 'heriseon.png'
-    },
-    {
-      title: 'GamePlatfor',
-      descript: 'Description',
-      github: 'https://github.com/uhMammoth/GamePlatforms',
-      deploy: 'https://uhmammoth.github.io/GamePlatforms/',
-      fileName: 'GamePlatformProject.png'
-    },
+    },    
     {
       title: 'GamePlatform',
       descript: 'Description',

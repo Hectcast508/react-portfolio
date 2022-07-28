@@ -8,7 +8,7 @@ export default function About() {
       <div className='about-sec'>
         <img className='aboutImage' src={require('../../assets/about-photo.png')} alt='about-img'/>
         <p>
-        I am currently working in for a warehouse as a Equipment Operator. I've always been hard working and never let time go to waste, seeking better opportunities that come. Eager to learn more, getting close to perfection as a goal, really good team player and always on time. I am look to further my knowledge about coding, I have become very interested and would love to better myself in this work field. Willing to accept any offers that will help me reach my goals and teach me more ways to succeed in this career.
+        Full stack web developer continuously learning new technologies and skills to improve in my professional career as well in my personal projects. What motivated me to be a web developer was knowing all the amazing projects my friends would show me and that inspired me to take the first steps. I seek to be a developer that designs intuitive applications. Attended UCR Bootcamp Extension where I recently earned a certificate in full stack development with new skills developed in JavaScript, Express , MongoDB, React.js, Node, and responsive web design. Throughout every project I look for issues that I can improve and find ways to code more efficiently. I worked on a team of four to develop a single-page MERN app that assists high school students and faculty with being able to schedule appointments for specific subjects. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
         </p>
       </div>
     </div>
