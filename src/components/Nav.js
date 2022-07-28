@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../assets/Resume.pdf'
 
 export default function Nav({currentPage, handlePageChange}){
     return (
@@ -23,9 +24,7 @@ export default function Nav({currentPage, handlePageChange}){
                   >Contact</a>
                 </li>
                 <li><a 
-                    href='#resume' onClick={() => handlePageChange('Resume')}
-                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                  >Resume</a></li>
+                    href={Resume} rel="noopener noreferrer" target="_blank" >Resume</a></li>
             </ul>
         </nav>
     );
