@@ -10,7 +10,7 @@ export default function Footer(props) {
       <a href="https://github.com/Hectcast508">
         <img src={github} alt="github-icon"/>
       </a>
-      <a href="/">
+      <a href="https://www.linkedin.com/in/hector-castaneda/">
         <img src={linkedin} alt="linkedin-icon"/>
       </a>
       <a href="https://twitter.com/CapWonderBread">
